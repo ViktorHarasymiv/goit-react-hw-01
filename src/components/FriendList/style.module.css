@@ -1,0 +1,34 @@
+.friends {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.friends__tile {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    column-gap: 8px;
+}
+
+.friends__tile_item {
+    padding: 9px 17px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3px;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+    background-color: #fff;
+}
+
+.red {
+    color: red !important;
+}
+
+.green {
+    color: green !important;
+}
